@@ -15,7 +15,8 @@ function rot13(string) {
 
     charCode += 13
     
-    if (isCharCodeOverUpperCase(currentChar, charCode) || isCharCodeOverLowerCase(currentChar, charCode)) {
+    if (isCharCodeOverUpperCase(currentChar, charCode) || 
+      isCharCodeOverLowerCase(currentChar, charCode)) {
       charCode -= OFFSET;
     }
     
