@@ -1,8 +1,8 @@
 function rot13(string) {
   var OFFSET = 26
+  var newString = ''
   var i;
   var charCode;
-  var newString = ''
 
   for (i = 0; i < string.length; i++) {
     var currentChar = string[i];
